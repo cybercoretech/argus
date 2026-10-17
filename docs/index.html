@@ -41,7 +41,7 @@
 </head>
 <body>
   <header class="site-header">
-    <a class="brand" href="https://cybercore-tech.github.io/" data-brand-phase="0" aria-label="Cybercore Tech home"><span class="brand-emblem">CC</span><span class="brand-name">CYBERCORE <b>/</b> ARGUS<small>SECURITY TOOLS</small></span></a>
+    <a class="brand" href="https://cybercoretech.github.io/" data-brand-phase="0" aria-label="Cybercore Tech home"><span class="brand-emblem">CC</span><span class="brand-name">CYBERCORE <b>/</b> ARGUS<small>SECURITY TOOLS</small></span></a>
     <nav class="main-nav" aria-label="Primary"><a href="#watch">WATCH</a><a href="#split">DESIGN</a><a href="#setup">SETUP</a><a href="#themes">THEMES</a></nav>
     <div class="theme-picker"><span class="theme-label">THEME</span><button id="themeButton" class="theme-button" type="button" aria-haspopup="listbox" aria-expanded="false" aria-controls="themeMenu">LOADING THEMES…</button><div id="themeMenu" class="theme-menu" role="listbox" aria-label="Theme" hidden></div></div>
   </header>
@@ -54,7 +54,7 @@
         <p class="tagline">The hundred-eyed watchman for your most sensitive files — change detected the instant it happens.</p>
         <p class="lede">SigilWard seals a baseline and checks it daily. Argus is the live half: it watches the exact same paths, classifies every real write against the same baseline, logs it, and pings your desktop. Reads never trigger it — only actual changes do.</p>
         <div class="chips"><span class="chip"><b>◆</b> INOTIFY</span><span class="chip"><b>◆</b> SIGILWARD BASELINE</span><span class="chip"><b>◆</b> DESKTOP ALERTS</span><span class="chip"><b>◆</b> MIT</span></div>
-        <div class="cta"><a class="btn" href="https://github.com/cybercore-tech/argus">VIEW SOURCE ↗</a><a class="btn ghost" href="#setup">INSTALL</a></div>
+        <div class="cta"><a class="btn" href="https://github.com/cybercoretech/argus">VIEW SOURCE ↗</a><a class="btn ghost" href="#setup">INSTALL</a></div>
       </div>
       <div class="eye reveal" aria-hidden="true">
         <svg viewBox="0 0 400 400">
@@ -103,10 +103,10 @@
     </section>
 
     <section class="wrap section" id="setup">
-      <div class="section-head reveal"><div><p class="eyebrow">03 / Setup</p><h2>Open<br><em>the eyes.</em></h2></div><p>Set up <a href="https://cybercore-tech.github.io/sigilward/">SigilWard</a> first — Argus reads its config and baseline. Then install the privileged watcher and your notifier.</p></div>
+      <div class="section-head reveal"><div><p class="eyebrow">03 / Setup</p><h2>Open<br><em>the eyes.</em></h2></div><p>Set up <a href="https://cybercoretech.github.io/sigilward/">SigilWard</a> first — Argus reads its config and baseline. Then install the privileged watcher and your notifier.</p></div>
       <div class="grid g2">
         <div class="reveal"><span class="label">BUILD + INSTALL</span>
-<pre class="code" data-copy><code>git clone https://github.com/cybercore-tech/argus
+<pre class="code" data-copy><code>git clone https://github.com/cybercoretech/argus
 cd argus && cargo build --release
 sudo install -m 755 target/release/argus /usr/local/bin/argus
 install -m 755 target/release/argus ~/.local/bin/argus
@@ -131,7 +131,7 @@ argus events --since 2026-10-01T00:00:00Z</code></pre>
     </section>
 
     <section class="wrap section" style="padding-top:0">
-      <div class="card c-pink related reveal"><div><span class="num">◆ FOUNDATION</span><h3>SIGILWARD — THE SEAL</h3><p>The baseline Argus guards: SHA-256, mode and ownership for every watched file.</p></div><a class="btn" href="https://cybercore-tech.github.io/sigilward/">SIGILWARD ↗</a></div>
+      <div class="card c-pink related reveal"><div><span class="num">◆ FOUNDATION</span><h3>SIGILWARD — THE SEAL</h3><p>The baseline Argus guards: SHA-256, mode and ownership for every watched file.</p></div><a class="btn" href="https://cybercoretech.github.io/sigilward/">SIGILWARD ↗</a></div>
     </section>
   </main>
 
@@ -139,7 +139,7 @@ argus events --since 2026-10-01T00:00:00Z</code></pre>
     <div class="wrap"><cybercore-contact repo="argus"><a href="mailto:dev@cybercoretech.net">dev@cybercoretech.net</a></cybercore-contact></div>
   </section>
 
-  <footer><span>CYBERCORE TECH / ARGUS / MIT / © <span id="year"></span></span><span><a href="https://cybercore-tech.github.io/">CYBERCORE-TECH.GITHUB.IO</a> · <a href="https://github.com/cybercore-tech/argus">SOURCE</a></span></footer>
+  <footer><span>CYBERCORE TECH / ARGUS / MIT / © <span id="year"></span></span><span><a href="https://cybercoretech.github.io/">CYBERCORE-TECH.GITHUB.IO</a> · <a href="https://github.com/cybercoretech/argus">SOURCE</a></span></footer>
 
   <script>
     (() => { const t = document.getElementById('feedTime'), l = document.getElementById('feedLine'); if (!t || matchMedia('(prefers-reduced-motion: reduce)').matches) return;
@@ -148,6 +148,6 @@ argus events --since 2026-10-01T00:00:00Z</code></pre>
       tick(); setInterval(tick, 2600); })();
   </script>
   <script src="app.js"></script>
-  <script type="module" src="https://cybercore-tech.github.io/kit/contact.js"></script>
+  <script type="module" src="https://cybercoretech.github.io/kit/contact.js"></script>
 </body>
 </html>

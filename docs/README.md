@@ -1,7 +1,7 @@
 # Argus project site
 
 Served by GitHub Pages from `main` → `/docs` at
-<https://cybercore-tech.github.io/argus/>.
+<https://cybercoretech.github.io/argus/>.
 
 - `index.html`: page content, plus `window.SITE` (default theme and signature mashups)
 - `styles.css`, `app.js`: the shared Cybercore project-site kit (same files on every family site)
